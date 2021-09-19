@@ -16,9 +16,8 @@ function Body() {
 
     return (
         <div className="container">
-            <h1>CLOCKBODY</h1>
             <p>Current time is: {time}</p>
-            <Clock />
+            <Clock time = {time} />
         </div>
     );
 }

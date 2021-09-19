@@ -1,10 +1,14 @@
 import React from 'react';
 
-function Clock(props) {
+function Clock({time}) {
     return (
         <>
-            <div className="clock"></div>
-            <p>Pepe</p>
+            <div className="clock">
+                <div className="hourHand" style = {{transform:`rotate`}}>
+                    
+                </div>
+            </div>
+            <p>{time}</p>
         </>
     );
 }

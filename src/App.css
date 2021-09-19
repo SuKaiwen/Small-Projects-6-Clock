@@ -7,6 +7,18 @@
   height:300px;
   border-radius: 50%;
   background-color: gray;
+  position: relative;
+  margin-top: 125px;
+}
+
+.hourHand{
+  background-color: white;
+  position: absolute;
+  top:50%;
+  left:calc(50% - 5px);
+  width: 10px;
+  height:150px;
+  transform-origin: center 0;
 }
 
 .container{
