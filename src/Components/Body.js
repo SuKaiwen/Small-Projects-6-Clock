@@ -27,7 +27,6 @@ function Body() {
     return (
         <div className="container">
             <p>Current time is: {time}</p>
-            <p>Curr hour is: {hour} {minute} {second}</p>
             <Clock
                 hour={hour}
                 minute={minute}

@@ -6,39 +6,43 @@
   width:300px;
   height:300px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: white;
   position: relative;
-  margin-top: 125px;
+  margin-top: 50px;
+  border: 35px solid black;
 }
 
 .hourHand{
-  background-color: white;
+  background-color: black;
   position: absolute;
   top:50%;
   left:calc(50% - 5px);
   width: 10px;
   height:80px;
   transform-origin: center 0;
+  border-radius: 5px;
 }
 
 .minuteHand{
-  background-color: blueviolet;
+  background-color: blue;
   position: absolute;
   top:50%;
-  left:calc(50% - 5px);
-  width: 10px;
-  height:125px;
+  left:calc(50% - 3px);
+  width: 6px;
+  height:100px;
   transform-origin: center 0;
+  border-radius: 5px;
 }
 
 .secondHand{
   background-color: red;
   position: absolute;
   top:50%;
-  left:calc(50% - 5px);
-  width: 10px;
-  height:145px;
+  left:calc(50% - 3px);
+  width: 6px;
+  height:125px;
   transform-origin: center 0;
+  border-radius: 5px;
 }
 
 .center{
@@ -49,6 +53,30 @@
   position: absolute;
   top:calc(50% - 10px);
   left:calc(50% - 10px);
+}
+
+.clockNumber{
+  top:calc(50%);
+  left:calc(50%);
+  position: absolute;
+  color:white;
+  transform-origin: center 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.clockSign{
+  margin-top:155px;
+  font-size:20px;
+  position: absolute;
+}
+
+.clockText{
+  margin-top:125px;
+  font-size:20px;
+  position: absolute;
+  color:blueviolet;
+  left:-6px;
 }
 
 .container{
