@@ -17,8 +17,38 @@
   top:50%;
   left:calc(50% - 5px);
   width: 10px;
-  height:150px;
+  height:80px;
   transform-origin: center 0;
+}
+
+.minuteHand{
+  background-color: blueviolet;
+  position: absolute;
+  top:50%;
+  left:calc(50% - 5px);
+  width: 10px;
+  height:125px;
+  transform-origin: center 0;
+}
+
+.secondHand{
+  background-color: red;
+  position: absolute;
+  top:50%;
+  left:calc(50% - 5px);
+  width: 10px;
+  height:145px;
+  transform-origin: center 0;
+}
+
+.center{
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top:calc(50% - 10px);
+  left:calc(50% - 10px);
 }
 
 .container{
